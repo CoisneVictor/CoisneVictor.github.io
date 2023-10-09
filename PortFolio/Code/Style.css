@@ -1,0 +1,134 @@
+:root {
+    color: rgb(11, 32, 105);
+    font-family: Roboto;
+}
+
+#YoungSerif {
+    font-family: Young Serif
+}
+
+.rouge {
+    color: rgba(255,0,0,1);
+}
+
+#Tangerine {
+    font-family: Tangerine;
+}
+
+.grandvert{
+    font-size: 2em;
+    font-weight: bold;
+    color: #00ff00
+}
+
+.bordure{
+    padding: 10px;
+    border-top: 2px solid black;
+    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+    background-color: yellow;
+    margin: 40px;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: serif;
+}
+
+.fixed{
+    display: inline;
+    position: fixed;
+}
+
+.bbg{
+    padding-right: 80%;
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    border-bottom: 0px solid black;
+    border-left: 0px solid black;
+    background-color: black;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: rgba(0,0,0,0);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,1);
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4e4e4e;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+h1{
+    margin-top: 4%;
+}
+
+ol > p{
+    color: purple;
+}
+
+.need{
+    color: blue;
+}
+
+input:required{
+    border: 1px solid red
+}
+
+.option  input:optional+label::before{
+    content:"Optionnel" ;
+    color: #00ff00;
+}
+
+.check [type="checkbox"]:required:not(:checked)+label::before{
+    content: "Obligatoire";
+    color: red;
+}
+
+:target{
+    color: green;
+}
+
+@media screen and (orientation: portrait) {
+    #flexi{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+#flexi{
+    display: flex;
+    justify-content: space-around;
+}
+
+#grid{
+    display: grid;
+    grid-template: 1fr/ 1fr 1fr 1fr;
+}
