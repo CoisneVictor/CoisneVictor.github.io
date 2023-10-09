@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <nav> 
+        <div class="fixed bbg">
+            <ul>
+              <li><a href="C:\Autres\Vscode\Accueil.html">Accueil</a></li>
+              <li><a href="C:\Autres\Vscode\Port folio.html">Port&nbsp;Folio&nbsp;Coisne&nbsp;Victor</a></li>
+            </ul>
+          </div>
+    </nav>
+    <title> Port Folio Coisne Victor</title>
+    <a id="YoungSerif"><h1>Port Folio</h1></a>
+    <head>
+            <img src="C:\Users\coisn\OneDrive\Images\Pellicule\WIN_20231003_11_35_52_Pro.jpg" width="320" height="180">
+        <h2>Coisne Victor</h2>
+    </head>
+    <body>
+        <a href="#info">Informations</a>
+        <a href="#sco">Scolarité</a>
+        <a href="#exp">Expériences</a>
+        <a href="#compt">Compétences</a>
+        <a href="#contact">Me Contacter</a>
+        <section>
+            <h3 id="info">Informations :</h3>
+            <div id="flexi"> 
+                <table>
+                  <tbody>
+                      <tr>
+                          <th>Numéro de Téléphone :</th>
+                      </tr>
+                      <tr>
+                          <th>+33769656439</th>
+                      </tr>
+                  </tbody>
+              </table>
+              <table>
+                <tbody>
+                    <tr>
+                        <th>Adresse mail :</th>
+                    </tr>
+                    <tr>
+                        <th>csnevictor@gmail.com</th>
+                    </tr>
+                </tbody>
+              </table>
+              <table>
+                <tbody>
+                    <tr>
+                        <th>Localisation :</th>
+                    </tr>
+                    <tr>
+                        <th>229 Rue Jean Baptiste Tonnel, Wannehain 59830</th>
+                    </tr>
+                </tbody>
+              </table>
+            </div>
+        </section>
+        <hr/>
+        <h2> CV </h2>
+        <h3 id="sco">Scolarité :</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="2">2016-2023</th>
+                </tr>
+                <tr>
+                    <th>Année</th>
+                    <th>Formation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2016-2017</td>
+                    <td>6ème</td>
+                </tr>
+                <tr>
+                    <td>2017-2018</td>
+                    <td>5ème</td>
+                </tr>
+                <tr>
+                    <td>2018-2019</td>
+                    <td>4ème</td>
+                </tr>
+                <tr>
+                    <td>2019-2020</td>
+                    <td>3ème<br>Brevet</td>
+                </tr>
+                <tr>
+                    <td>2020-2021</td>
+                    <td>2nd</td>
+                </tr>
+                <tr>
+                    <td>2021-2022</td>
+                    <td>1ère<br>Spécialités : Anglais AMC + Mathématiques + NSI</td>
+                </tr>
+                <tr>
+                    <td>2022-2023</td>
+                    <td>Terminale<br>Bac Spécialités Mathématiques et NSI</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr/>
+        <h3 id="exp"> Mes Expériences :</h3>
+        <ol>
+            <p>Farnham Cross Water House. Juillet 2023 - 2 semaines. Bénévole.</p>
+            <p>Le Pontet. Mars 2020 - 1 semaine. Stage Découverte Ceetrus.</p>
+        </ol>
+        <hr/>
+        <h3 id="compt"> Mes Compétences :</h3>
+            <div id="grid">
+              <p>-Anglais niveau B2</p>
+              <p>-A l'écoute</p>
+              <p>-Ponctuel</p>
+              <p>-Informatique</p>
+              <p>-Programmation Python 3</p>
+              <p>-HTML/CSS</p>
+            </div>
+        <h2 id="contact">Me Contacter</h2>
+        <p>Si vous cherchez à me contacter veuillez remplir les informations ci-dessous :</p>
+        <form method="post" action="https://api.web3forms.com/submit">
+            <input type="hidden" name="access_key" value="17649eeb-95da-4a09-8841-f8ebee04169b"/>
+            <div class="need">
+                <div>
+                    <label for="last name">Nom :</label>
+                    <input type="text" name="last name" id="last name" required/>
+                </div>
+                <div>
+                    <label for="name">Prénom :</label>
+                    <input type="text" name="name" id="name" required/>
+                </div>
+                <div>
+                    <label for="email">Email :</label>
+                    <input type="email" name="email" id="email" required/>
+                </div>
+                <div>
+                    <label for="num">Numéro de Téléphone :</label>
+                    <input type="tel" name="num" id="num" required/>
+                </div>
+                <div class="option">
+                    <label for="mess">Message à faire passer ? :</label>
+                    <input type="text" name="mess" id="mess"/>
+                    <label></label>
+                </div>
+                <div class="check">
+                    <label for="cfrm">J'accepte d'être recontacter</label>
+                    <input type="checkbox" name="cfrm" id="cfrm" required/>
+                    <label></label>
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Envoyer"/>
+            </div>
+        </form>
+    </body>
+</html>
