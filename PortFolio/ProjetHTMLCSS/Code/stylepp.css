@@ -1,0 +1,27 @@
+header{
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    background-color: gray;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15vh;
+    background-color: lightgray;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a img{
+    display: flex;
+    justify-content: end;
+}
