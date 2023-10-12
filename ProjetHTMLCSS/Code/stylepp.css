@@ -1,0 +1,30 @@
+header{
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    background-color: rgb(113, 113, 116);
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15vh;
+    background-color: rgb(113, 113, 116);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 3vh;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div a img{
+    display: flex;
+    justify-content: end;
+    
+}
